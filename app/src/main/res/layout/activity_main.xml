@@ -15,4 +15,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9F9F9"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        tools:context=".GetStartedActivity"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="-195dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="Get Started Image"
+            android:scaleType="centerInside"
+            android:src="@drawable/Picture" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
